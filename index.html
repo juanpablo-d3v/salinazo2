@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salinazo Extremo 2</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-media">
+        <img src="assets/img/bg-poster.jpeg" alt="Poster Salinazo Extremo 2" loading="lazy" />
+        <div class="hero-gradient"></div>
+      </div>
+      <div class="hero-copy container">
+        <div class="hero-main">
+          <p class="hero-tagline" id="event-tagline">Cargando...</p>
+          <h2 id="hero-title">Cargando evento...</h2>
+          <div class="hero-details">
+            <div>
+              <strong>Fecha:</strong>
+              <span id="event-date">Cargando...</span>
+            </div>
+            <div>
+              <strong>Inicio:</strong>
+              <span id="event-start">Cargando...</span>
+            </div>
+            <div>
+              <strong>Salida de Colima:</strong>
+              <span id="event-arrival">Cargando...</span>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a id="strava-button" class="button button-primary" href="../salinazo2/assets/data/salinazo2.gpx" download>
+              <span class="button-icon">🚴</span>Ruta Strava
+            </a>
+            <a id="responsiv-button" class="button button-secondary" href="../salinazo2/assets/data/responsiva.pdf" download>
+              <span class="button-icon">📄</span>Responsiva
+            </a>
+          </div>
+        </div>
+
+        <article class="card hero-members">
+          <h3>Participantes</h3>
+          <ul id="members-list" class="members-list">
+            <!-- Participantes generados por JS -->
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <!-- <p id="footer-info">Cargando evento...</p> -->
+      <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="3479958869585893012" data-style="standard" data-map-hash="10.08/18.9797/-104.0509" data-from-embed="true" data-token="nB6aCtli8i1SsD2FEhDh_IfXhKxJBvlhX0x0CTGWDpo"></div>
+    </div>
+  </footer>
+
+  <script src="https://strava-embeds.com/embed.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

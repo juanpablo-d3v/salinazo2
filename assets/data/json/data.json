@@ -1,0 +1,93 @@
+{
+    "event_info": {
+        "name": "Salinazo Extremo 2",
+        "tagline": "Explanda de la Presidencia, Armería, Colima",
+        "date": "Domingo 17 de Mayo",
+        "schedule": {
+            "arrival": "Por definir",
+            "start": "7:30 AM"
+        },
+        "location": {
+            "name": "Explanada de la Presidencia",
+            "city": "Armería",
+            "state": "Colima"
+        }
+    },
+    "registration": {
+        "deadline_full_kit": "Hoy (Última oportunidad)",
+        "whatsapp_contact": "313 100 5588",
+        "payment_method": {
+            "bank": "Banamex",
+            "account_number": "5204 1674 7563 6791",
+            "beneficiary": "Noe Oseguera Rios"
+        }
+    },
+    "packages": [
+        {
+            "name": "Kit Básico",
+            "price": 250,
+            "currency": "MXN",
+            "includes": [
+                "Bandana",
+                "Medalla",
+                "Número",
+                "Pulsera",
+                "Hidratación",
+                "Arrastre",
+                "Birria"
+            ]
+        },
+        {
+            "name": "Kit Completo",
+            "price": 450,
+            "currency": "MXN",
+            "includes": [
+                "Playera MTB (Jersey Oficial)",
+                "Bandana",
+                "Medalla",
+                "Número",
+                "Pulsera",
+                "Hidratación",
+                "Arrastre",
+                "Birria"
+            ]
+        }
+    ],
+    "members": [
+        {
+            "participant_number": "167",
+            "name": "Armando Urzua"
+        },
+        {
+            "participant_number": "168",
+            "name": "Alejandro Gomez"
+        },
+        {
+            "participant_number": "169",
+            "name": "Carlos Vazquez"
+        },
+        {
+            "participant_number": "170",
+            "name": "Alberto Jorge"
+        },
+        {
+            "participant_number": "171",
+            "name": "Juan Pablo Solorzano"
+        },
+        {
+            "participant_number": "182",
+            "name": "Hugo Cordova"
+        },
+        {
+            "participant_number": "183",
+            "name": "Christian Godinez"
+        },
+        {
+            "participant_number": "184",
+            "name": "Octavio Godinez"
+        }
+    ],
+    "social": {
+        "whatsapp_link": "https://wa.me/523131005588"
+    }
+}
