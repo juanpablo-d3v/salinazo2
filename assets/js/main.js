@@ -1,4 +1,5 @@
-const dataPath = "/salinazo2/assets/data/json/data.json";
+const repoBase = window.location.pathname.includes("/salinazo2/") ? "/salinazo2" : "";
+const dataPath = `${repoBase}/assets/data/json/data.json`;
 
 async function loadEventData() {
   try {
@@ -27,11 +28,11 @@ function populatePage(data) {
   document.getElementById("event-start").textContent = eventInfo.schedule.start;
   document.getElementById("event-arrival").textContent = eventInfo.schedule.arrival;
 
-  const stravaLink = data.social?.strava_link || "https://www.strava.com";
-  const responsivLink = data.social?.responsiv_link || "https://responsiv.com";
+  const stravaLink = data.social.strava_link;
+  const responsivLink = data.social.responsiva_link;
 
   document.getElementById("strava-button").href = stravaLink;
-  document.getElementById("responsiv-button").href = responsivLink;
+  document.getElementById("responsiva-button").href = responsivLink;
 
   // document.getElementById("footer-info").textContent = `${eventInfo.name} • MTB • ${eventInfo.location.city}, ${eventInfo.location.state}`;
 
