@@ -1,4 +1,4 @@
-const dataPath = "/assets/data/json/data.json";
+const dataPath = "/salinazo2/assets/data/json/data.json";
 
 async function loadEventData() {
   try {
